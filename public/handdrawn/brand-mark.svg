@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="145" viewBox="30 20 180 145" fill="none">
+  <title>Italia Uno — original hand-drawn panini and hospitality mark</title>
+  <desc>An original concept brand mark, not the restaurant's official logo. Two playful steam ribbons rise from a shared panini. Indigo ink on warm paper.</desc>
+  <g stroke="#293b68" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M59 106c-1-19 21-33 61-32 36-1 61 13 62 30-30 5-89 7-123 2Z" fill="#f3e7cd" stroke-width="3"/>
+    <path d="M60 107c-6 6-4 10 2 12l19-3 17 6 21-5 21 4 22-6 17 3c8-3 11-8 4-12" fill="#f3e7cd" stroke-width="2.8"/>
+    <path d="M62 120c-4 9 4 20 15 23 24 6 70 6 91-1 12-4 19-14 12-24" fill="#f3e7cd" stroke-width="3"/>
+    <path d="m89 94 9-9m18 9 9-10m16 11 9-10" stroke-width="2.1"/>
+    <path d="M69 133c22 6 73 9 101-1M72 105c21 2 68 2 91-2" stroke-width="1" opacity=".6"/>
+    <path d="M102 65c-20-15 13-19 0-35m32 34c19-14-11-20 2-36" stroke-width="2.5"/>
+    <path d="M112 44c-7-7-16 3 9 17 24-17 13-25 7-17l-7 7-9-7Z" fill="#f3e7cd" stroke-width="1.6"/>
+    <path d="M46 154c43 6 104 7 149-1m-146 5c44 4 97 5 141-1" stroke-width="1.15"/>
+  </g>
+  <text x="120" y="182" text-anchor="middle" fill="#293b68" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="24" letter-spacing="2">ITALIA UNO</text>
+  <text x="120" y="199" text-anchor="middle" fill="#293b68" font-family="Georgia, 'Times New Roman', serif" font-size="9" letter-spacing="2.2">UN PICCOLO MONDO</text>
+</svg>

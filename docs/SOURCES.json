@@ -1,0 +1,293 @@
+{
+  "checked": "2026-11-07",
+  "place": "Italia Uno, 91 Charlotte Street, London W1T 4PX",
+  "sources": [
+    {
+      "url": "https://www.tripadvisor.co.uk/Restaurant_Review-g186338-d2395438-Reviews-Italia_Uno-London_England.html",
+      "status": "read",
+      "use": "Address, phone, listed hours only. Directory information, not live opening status or proprietor confirmation. No reviews quoted or ratings reproduced."
+    },
+    {
+      "url": "https://www.linkedin.com/posts/duncan-wood-74057a19_if-you-know-you-know-18-years-ive-been-activity-7326220122199670784-wIQk",
+      "status": "exterior image visually inspected, found via Google Images; 7 November 2026",
+      "use": "Visual reference only: brown brick upper façade, cream/white fascia with blue ITALIA UNO lettering and telephone number, solid blue sandwich-bar awning, blue window frames, recessed entrance at right. No caption, personal biography or endorsement reproduced. Image is not included in gameplay."
+    },
+    {
+      "url": "https://italiauno.shop/",
+      "status": "Earlier timeout; /menu subsequently redirected to a third-party directory. Not accepted as official current menu.",
+      "use": "User-supplied link, disclosed as unverified and not used to substantiate facts."
+    },
+    {
+      "url": "https://www.instagram.com/p/DfCZ_MriGGx/?img_index=4",
+      "status": "public post viewed in browser",
+      "use": "Layout reference only. No images, mascots, artwork, slogans or product interface copied."
+    },
+    {
+      "files": [
+        "img-20160926-210115-largejpg.jpg",
+        "no-cricket-allowed.jpg",
+        "caption-1.jpg",
+        "caption.jpg",
+        "img-20160926-210216-largejpg.jpg"
+      ],
+      "status": "supplied by user",
+      "use": "Blue counter, chalkboards, football decorations and menu names/fillings. Some photos are historical; no current prices, stock, crowd estimates or real-person likenesses used."
+    },
+    {
+      "file": "PHOTO-2026-11-07-15-31-02 2.jpg",
+      "status": "user sketch",
+      "use": "Shop exterior first, dialogue box, enter action, then isometric café room."
+    },
+    {
+      "file": "ideation hackathon .pdf",
+      "status": "user ideation",
+      "use": "Local-business discovery, cute room, visitor customisation, map and community. Auto-generated multi-store rooms, live stock/crowds and public reviews are future scope, not claimed working features."
+    },
+    {
+      "url": "https://fitzrovianews.com/2026/03/13/family-run-italian-cafe-marks-30-years-on-charlotte-street/",
+      "title": "Family-run Italian cafe marks 30 years on Charlotte Street",
+      "author": "Andrea Bidnic",
+      "published": "2026-03-13",
+      "checked": "2026-11-07",
+      "type": "Primary local newspaper interview with Felice Bracco",
+      "use": "Supports upbringing in Bari, 1987 first café in Soho with an associate, 1996 move to 91 Charlotte Street, family café and coffee/football setting. Paraphrased, no quotes or real staff likenesses. No current opening-hours or price promise extracted."
+    },
+    {
+      "url": "https://fitzrovianews.com/2015/01/26/a-passion-for-napoli-in-charlotte-street/",
+      "title": "A passion for Napoli in Charlotte Street",
+      "author": "Linus Rees",
+      "published": "2015-01-26",
+      "checked": "2026-11-07",
+      "type": "Primary local newspaper reporting and owner interview",
+      "use": "Supports café at exact address since 1996 and its London Napoli-supporter gathering connection. Does not establish Fitzrovia as an Italian enclave. Bari and Napoli are distinguished in the game."
+    },
+    {
+      "file": "Untitled_Artwork.pdf",
+      "type": "User-supplied interface wireframe, one page",
+      "checked": "2026-11-07",
+      "use": "Structural format only: room with Make order beneath; host left/menu right with category tabs, vertical rows and fixed total; table/noticeboard with lower owner dialogue and right portrait; narrow Qty/Item/Price receipt with greeting and bottom total. Handwriting style, placeholder menu words/prices and any social handle not copied as facts."
+    },
+    {
+      "file": "Untitled document (2).pdf",
+      "status": "Both pages rendered and visually inspected, 7 November 2026",
+      "use": "User-supplied art direction: grainy beige/tan paper, indigo handwriting, chic informal handmade aesthetics. Referenced images/logos are not copied into gameplay."
+    },
+    {
+      "url": "https://github.com/google/fonts/tree/main/ofl/caveat",
+      "status": "Official font files downloaded; licence bundled verbatim",
+      "use": "Caveat variable font, SIL Open Font License 1.1. Local display font only; public/fonts/OFL-Caveat.txt."
+    },
+    {
+      "file": "Team-supplied proposed Italia Uno logo",
+      "status": "Supplied by user, 7 November 2026",
+      "use": "Unmodified team brand artwork in header and favicon; rounded, low-set brush lettering informs display typography. Not claimed to be an official commissioned restaurant identity."
+    },
+    {
+      "url": "https://github.com/google/fonts/tree/main/ofl/leckerlione",
+      "status": "Official TTF and SIL OFL bundled locally",
+      "use": "Leckerli One display brush lettering. Low, wide rounded letters rather than tall pen script. Utility text uses readable serif/sans type."
+    },
+    {
+      "url": "https://developer.apple.com/design/human-interface-guidelines/layout",
+      "status": "Primary layout guidance, read 7 November 2026",
+      "use": "Group related content and progressively disclose optional choices. Design interpretation for the phone UI."
+    },
+    {
+      "url": "https://developer.apple.com/design/tips/",
+      "status": "Primary Apple UI tips, read 7 November 2026",
+      "use": "Touch-friendly target and text guidance; native-point advice informed a >=44 CSS px web target choice, not a unit-equivalence claim."
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "status": "Primary W3C WCAG 2.2 explanation",
+      "use": "Target spacing/minimum context; this game aims for >=44px phone actions rather than only the 24px AA minimum/exceptions."
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "status": "Primary W3C WCAG 2.2 explanation",
+      "use": "Reflow surrounding text and controls at 320 CSS px; inherently 2D game artwork remains independently framed."
+    }
+  ],
+  "creative_fiction": [
+    "Guide and dialogue are fictional, not owner testimony",
+    "Photo-guided stylised shop, not a measured or surveyed reconstruction. Photos span different dates; current layout is not guaranteed.",
+    "Three stamp quest and simplified panino puzzle",
+    "Proposed visual identity, not an approved brand",
+    "Fictional boss sprite, deterministic three-day management simulation, token prices, customer patience, upgrades and results. Not a model of actual business performance.",
+    "Customer ordering journey, five-second meal demonstration, invented virtual GBP price schedule and zero-charge receipt. No real order, payment or discount."
+  ],
+  "not_verified": [
+    "Proprietor permission or official affiliation",
+    "Current prices, allergens, inventory and live opening state",
+    "Any ownership/founding detail beyond the two cited published accounts; no proprietor approval or endorsement obtained."
+  ],
+  "replicated_visual_features": [
+    "White fascia and blue lettering, solid blue lettered awning, brown brick context, blue-framed glazing",
+    "Long navy service counter with glass food display, black/steel espresso machine and grinder, drinks fridge",
+    "Three wood-framed chalkboard menus, Italian flags, generic football shirts/scarves, two football-screen TVs",
+    "Checkerboard floor and square tables with thin dark chair frames"
+  ],
+  "approximations": [
+    "Scale and depth inferred from photographs; not measured",
+    "Generic football decorations without exact commercial logos or team endorsement",
+    "Fictional visitor, map prop, dialogue, game stamps and puzzle",
+    "No real people depicted; photos are modelling references only"
+  ],
+  "current_renderer": {
+    "type": "Canvas 2D",
+    "artwork": "Original code-drawn pen-and-paper scenes on a 640 by 420 coordinate system. No reference photographs are redistributed."
+  },
+  "menu": {
+    "module": "lib/menu-data.mjs",
+    "count": 65,
+    "categories": 10,
+    "scope": "All legible named dishes and explicit options in the supplied blackboard photos; not guaranteed complete/current shop menu",
+    "prices": "Historical prices remain omitted from catalogue. Ordering mode displays a separately labelled invented virtual price schedule; never current café prices.",
+    "full_method": "docs/menu-transcription.txt"
+  },
+  "music": {
+    "module": "lib/cafe-music.mjs + lib/music-score.mjs",
+    "type": "Original procedurally synthesised 4/4 cinema-jazz lounge score",
+    "source": "https://www.youtube.com/watch?v=MlgD3nOndxw&t=1800s",
+    "reference_title": "The Best of Piero Piccioni - The Greatest Hits • Best Score Collection",
+    "reference_metadata": "The linked page describes cinema and jazz. The public track list places Charms at 29:28 and the next track at 32:42, so 30:00 lies in Charms. Verified from visible YouTube page content on 7 November 2026.",
+    "verification_limit": "The agent could inspect page metadata and track list but could not directly hear the reference audio. No claim of measured tempo, instrument transcription or note-level analysis is made.",
+    "uses": "Broad genre and atmosphere brief. All harmony/melody/rhythm, voicing, tempo choices and synthesised instruments are original game design decisions. No third-party recording, samples or melody is used.",
+    "arrangement": "16-bar original melody with rests; seventh/ninth harmony; FM electric-piano-like keys, soft plucked voice, breathy lead, round bass, brushed noise percussion and generated room reflections.",
+    "scenes": {
+      "street": "86 BPM, more plucked colour",
+      "cafe/prep": "80 BPM, softer keyboard lead and light brush",
+      "service": "96 BPM, firmer pulse and fewer melody notes",
+      "closing/receipt/review": "74 BPM, lower bell-like lead and sparse percussion"
+    },
+    "implementation": "Browser Web Audio; user gesture start, mute, scene crossfade, tab-hidden suspension, exact offline QA renderer."
+  },
+  "font": {
+    "family": "Pixelify Sans",
+    "source": "https://github.com/google/fonts/tree/main/ofl/pixelifysans",
+    "licence": "SIL Open Font License 1.1",
+    "licence_file": "public/fonts/OFL-PixelifySans.txt"
+  },
+  "open_source_design_references": [
+    {
+      "name": "MiniBistro",
+      "url": "https://github.com/MajestyHenius/MiniBistro",
+      "licence": "MIT for code; see project asset licensing separately",
+      "reuse": "High-level prep/queue/day report ideas only. No source or assets copied."
+    },
+    {
+      "name": "OpenRCT2",
+      "url": "https://github.com/OpenRCT2/OpenRCT2",
+      "licence": "GPLv3+",
+      "reuse": "Explicit scenario objectives and management feedback patterns only. No source, interface or assets copied."
+    }
+  ],
+  "customer_journey": {
+    "state": "lib/customer-state.mjs",
+    "order": "Explore → Yes → Order → Done → eating and optional wall-map story → Checkout → receipt → goodbye → OK",
+    "history": "Published facts are in third-person source-linked cards; host dialogue is labelled fictional. No claim that Fitzrovia is an Italian enclave.",
+    "receipt": "Integer-pence line arithmetic, frozen checkout timestamp, actual charged £0.00 and real Google Maps link in the page and SVG."
+  },
+  "current_layout": {
+    "reference": "Untitled_Artwork.pdf",
+    "primaryStages": "Room / split counter and menu / table and noticeboard / standalone receipt",
+    "art": "Existing pixel identity and room retained; new original pixel camera vignettes, not real staff likenesses",
+    "logic": "Existing guarded customer journey and owner simulation unchanged"
+  },
+  "warm_visual_revision": {
+    "direction": "Warm ivory, tomato red, terracotta and espresso; basil restricted to tricolour, plants and food. Photo-derived blue fascia and counter retained.",
+    "references": [
+      {
+        "name": "E&S Design — Cafe Lucio",
+        "url": "https://es-designgroups.com/project/cafe-lucio/",
+        "use": "Terracotta and warm material palette only; no photos, layouts, text or assets copied."
+      },
+      {
+        "name": "Italia Uno exterior reference, Duncan Wood",
+        "url": "https://www.linkedin.com/posts/duncan-wood-74057a19_if-you-know-you-know-18-years-ive-been-activity-7326220122199670784-wIQk",
+        "use": "White fascia, blue lettering and blue awning. Existing supplied-photo source; frontage remains stylised."
+      },
+      {
+        "name": "El gringo photo — warm Italian café entrance",
+        "url": "https://www.pexels.com/photo/cozy-italian-cafe-exterior-sign-with-menu-awning-29300402/",
+        "use": "Warm entrance-lighting and street mood reference only; no image downloaded or reused."
+      }
+    ],
+    "original_scenery": "Adjacent façades, pavement, lantern, bicycle, planters, flower boxes, chalk A-board and fictional waving pixel host are creative scenery, not measured claims about the real premises. Original red-and-ivory gingham tablecloth.",
+    "media": "All new visuals drawn with HTML/CSS/Canvas. No generated raster assets or real staff likenesses. Original music preserved."
+  },
+  "pixel_craft_revision": {
+    "reference_scope": "Craft benchmarks, not templates or a claim of equivalent commercial production quality. The existing warm Italian palette and wireframe layout are retained.",
+    "references": [
+      {
+        "name": "Coffee Talk",
+        "url": "https://store.steampowered.com/app/914800/Coffee_Talk/",
+        "studio": "Toge Productions",
+        "use": "Reference for layered café storytelling, readable silhouettes, material clusters and expressive portraits. Official store screenshot inspected; no assets or layouts copied."
+      },
+      {
+        "name": "VA-11 Hall-A: Cyberpunk Bartender Action",
+        "url": "https://store.steampowered.com/app/447530/VA11_HallA_Cyberpunk_Bartender_Action/",
+        "studio": "Sukeban Games",
+        "use": "User-supplied craft benchmark for counter/character interaction; official store listing checked. No characters, UI, code or music copied."
+      },
+      {
+        "name": "Papers, Please",
+        "url": "https://store.steampowered.com/app/239030/Papers_Please/",
+        "studio": "Lucas Pope / 3909",
+        "use": "User-supplied benchmark for deliberate object feedback and readable tactile UI; official store listing checked. The café journey and layout remain unchanged."
+      },
+      {
+        "name": "The Red Strings Club",
+        "url": "https://store.steampowered.com/app/589780/The_Red_Strings_Club/",
+        "studio": "Deconstructeam",
+        "use": "User-supplied benchmark for scene/material depth and small interactions; official store listing checked. No cyberpunk palette or game assets reused."
+      },
+      {
+        "name": "Bear’s Restaurant",
+        "url": "https://odencat.com/bearsrestaurant/switch/",
+        "steam": "https://store.steampowered.com/app/1687550/",
+        "studio": "Odencat",
+        "use": "User-supplied benchmark for warm, legible pixel environments. Publisher page and correct Steam ID verified; supplied ID 1683420 did not resolve to the referenced game."
+      }
+    ],
+    "implementation": "Original code-only 640×420 scenes and 96×128 animated fictional chef sprite. Integer raster tools, cached sprite variants, per-surface seeded texture, two-tone shadow clusters, glass/chrome highlights, food clusters and an actual-order-triggered serving gesture. No borrowed game art, characters, fonts, music or source code.",
+    "portrait": "Fictional host designed for this prototype; not a likeness or quote of the real owner.",
+    "unchanged": "Customer reducers, 65-item catalogue, prices, five-second meal guard, owner simulation, source-linked café history, receipt arithmetic and original music."
+  },
+  "scene_first_layout": {
+    "date": "2026-11-07",
+    "brief": "Make the main interaction scene dominate the screen, with distinct desktop and mobile layouts. Preserve the separate interior, order counter, table and receipt pages.",
+    "references": [
+      {
+        "name": "Canvas layers",
+        "institution": "Godot Engine official documentation",
+        "url": "https://docs.godotengine.org/en/stable/tutorials/2d/canvas_layers.html",
+        "use": "World camera transformation and screen-space HUD are distinct layers. Architectural reference only; no engine dependency or copied code."
+      },
+      {
+        "name": "The large, small, and dynamic viewport units",
+        "author": "Bramus",
+        "institution": "web.dev / Chrome team",
+        "year": 2022,
+        "url": "https://web.dev/blog/viewport-units",
+        "use": "100dvh tracks mobile browser UI; short screens must retain access to content and controls."
+      }
+    ],
+    "implementation": "Original code. One shared camera projection for pixel canvas and HTML hotspots; tight interior bounds, portrait horizontal pan, overview toggle, keyboard focus tracking and screen-space controls. Desktop scene with compact floating dialogue; portrait scene above readable dialogue in normal flow.",
+    "unchanged": "Artwork, animation, synthesis music, customer and owner reducers, catalogue, virtual prices, timers, receipt data, independent scene pages and saved progress."
+  },
+  "italian_localisation": {
+    "date": "2026-11-07",
+    "source": "Existing English game copy and existing photo-menu transcription.",
+    "method": "Bundled Italian dictionaries authored with AI assistance and reviewed for complete keys, dynamic/generated strings, retained facts and unchanged numbers.",
+    "scope": "Dialogue, exploration, both menus and search, source-linked story, management game, receipts, SVG and accessibility labels.",
+    "identity": "Names, addresses, original blackboard labels, source titles, external URLs, GBP game prices and original pixel artwork are preserved.",
+    "runtime": "No external translation service or API calls."
+  },
+  "open_source_edition": {
+    "based_on": "Site version 18",
+    "source_commit": "4a8a3314b9a8c3b2d8ee30f7043b99b8b7ce5904",
+    "packaging": "Standalone React/Vite static app. Sites authentication, worker, connector and deployment files omitted."
+  }
+}

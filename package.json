@@ -1,0 +1,36 @@
+{
+  "name": "italia-uno-a-little-local-adventure",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An open-source handcrafted caf\u00e9 exploration and management game.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.2",
+    "@tailwindcss/postcss": "4.2.1",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/node": "22.19.19",
+    "vite": "8.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shian493719730-art/italia-uno-a-little-local-adventure.git"
+  }
+}

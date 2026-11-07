@@ -1,0 +1,67 @@
+ITALIA UNO — PHOTO MENU TRANSCRIPTION
+Prepared 7 November 2026 for the independent Creative Track prototype.
+
+SCOPE
+All readable names and explicitly named variants in the three blackboards of the supplied close photograph are included. The wider photograph was used as a second visual cross-check. This is NOT a claim that the photographs show the restaurant's entire current menu. Additional unseen boards, bottled drinks, unlisted sweets and live stock cannot be inferred.
+
+SOURCE MATERIAL
+Primary: reference-photos/caption.jpg
+Cross-check: reference-photos/caption-1.jpg
+The team supplied these photos together with the real café listing:
+https://www.tripadvisor.co.uk/Restaurant_Review-g186338-d2395438-Reviews-Italia_Uno-London_England.html
+The photos' photography dates were not independently verified. Do not infer a year from an unrelated supplied filename.
+
+Website check: https://italiauno.shop/menu, accessed 7 November 2026, redirected to https://italia-uno.locallya.com/menu. This is a third-party directory with OCR-like transcriptions, e.g. Campagnold / Hot F, and inconsistent prices. It was excluded from menu facts. Do not label it an official menu or use its date stamp to claim current stock/prices.
+
+METHOD
+1. Visually inspected both full supplied photographs.
+2. Created temporary enlarged crops of each blackboard solely to read the source. No crop is used as game art, and the original photos were not modified.
+3. Transcribed original names and readable fillings.
+4. Expanded explicit named OR choices, named hot-drink sizes/double-shot variants, and three named glass-gelato flavours into separate searchable entries. The four panino add-ons stay with their panino rather than being counted as separate dishes; Cotoletta adds cheese, Piccante adds sun-dried tomatoes, Bondola adds artichoke hearts, Veneziano adds aubergines. (Four add-on rows total.)
+5. English descriptions use readable board wording. Chinese descriptions are translations, not independently verified recipes or allergen declarations.
+6. The Italian and English fresh-orange-juice lines are one drink and are not double-counted.
+7. Historic prices are omitted. The two photos show different prices; some digits are covered by food packaging. No game score or serving fee is represented as a restaurant price.
+
+CATALOGUE COUNTS (65 expanded entries; 10 categories)
+Panini Italiani: 9
+Hot food and sides: 10
+Large salads: 5
+Basic rolls with salad: 6
+Breakfasts: 4
+Hot drinks: 13
+Bakery and biscuits: 8
+Dolci: 4
+Gelati / glass formats / named flavours: 5
+Fresh juice: 1
+
+CLEARLY READ NAMED OPTIONS
+9 panini: Italia; Campagnolo; Cotoletta; Pescatore; Piccante; Bondola; Barese; Puglia; Veneziano.
+Hot food: vegetable or tomato soup; meat or vegetable lasagne; vegetarian or meat pasta of the day; melanzane alla parmigiana + bread; arancine with meat OR spinach + mozzarella; insalatina; pane.
+Large salads: insalata di pollo + mozzarella; insalata vegetariana; insalata di mare; affettato misto; antipasto grande. Bread is included according to the heading.
+Basic rolls: cheese; tuna; salame; mortadella; prosciutto crudo (Parma ham); pancetta. The heading says with salad.
+Breakfasts: scrambled eggs on toast; Parma ham + scrambled eggs; Italian breakfast; vegetarian breakfast. Readable ingredient descriptions are preserved.
+Hot drinks: espresso singolo; espresso doppio; cappuccino small; cappuccino grande; cappuccino doppio; cappuccino grande doppio; caffelatte; caffelatte doppio; cioccolata calda; normal tea; Earl Grey; camomile; peppermint.
+Bakery: croissant piccoli; nastrine; croissant grande; Danish; wafers; cantucci; a slice of panettone OR pandoro.
+Dolci examples: tiramisu; torta nonna; cannolo siciliano; torte piccole (half portion).
+Gelato: Gelati; Coppe (Italian ice cream in glass); glass gelato in cioccolato, pistacchio or cocco.
+Fresh juice: spremuta d'arancia / freshly squeezed orange juice.
+
+LIMITS / OCCLUDED DETAILS
+- Prices on the right board have covered digits; none are guessed or published.
+- The two generic lines “Gelati” and “Coppe” are retained. Their exact relationship to the following named-flavour glass row is unspecified. Both entries carry an explicit format-unspecified note.
+- Pasta of the day does not name a particular daily pasta recipe. The vegetarian/meat choices remain one catalogue entry with an explicit note.
+- The board says “Dolci (sweets) — ask staff what's available” and gives examples ending “etc.” No extra unnamed dessert has been invented.
+- Individual fillings for insalata vegetariana and antipasto grande are not legible/listed; those are not filled in by assumption.
+- “Torta nonna” is kept as written, rather than silently substituting a presumed full recipe name.
+- The board spells “Camomile”; that spelling is preserved.
+- Nastrine is readable in the enlarged close photo; it is not “d'astrice”.
+- There is no legible separate bottled-cold-drink, alcohol or full allergen list in the supplied boards. Only freshly squeezed orange juice is confirmed here.
+
+INTEGRATION
+lib/menu-data.mjs exports MENU_ITEMS, MENU_CATEGORIES, MENU_COUNT, MENU_PROVENANCE and menuById.
+app/menu-book.tsx exports default MenuBook({lang:'en'|'zh', onChoose?}) and named MenuSprite({category}).
+The catalogue has category tabs, a search field, result counts, all 65 entries, and expandable provenance. It does not execute the game reducer or mutate state. Only three explicit “Try this panino in the game” buttons call onChoose with italia / campagnolo / barese. Search, categories, source links and reading cannot accidentally make an order or award a stamp.
+CSS proposal is scoped to menu-book and is in docs/menu-css.txt. Icons use pixel-like squared DOM shapes, not emoji. No game.tsx, scene, hosting or global CSS changes were made by this task.
+
+CHECKS
+Node import verified: 65 unique IDs, category counts, bilingual names/descriptions, source IDs, and exactly three gameRecipe links. Component integration/build is performed by the parent task with the scene/game changes.

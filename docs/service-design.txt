@@ -1,0 +1,104 @@
+ITALIA UNO — A LITTLE TURN BEHIND THE COUNTER
+Original mini-game design and reference record · 7 November 2026
+
+Purpose
+The player clicks the fictional owner guide to try a short restaurant-management
+practice run. It adds an active service loop to the café exploration rather than
+reusing the Cambridge Pledge resource-allocation game. Leaving the practice run,
+or finishing all three days, invites the player to visit the real Italia Uno:
+“You’ve tried the little game. Why not drop by Italia Uno and see the real café in
+action?” There is no claim that this is the actual owner’s voice or that the
+virtual results measure the real café’s performance.
+
+Playable loop
+1. Before opening, review every order for the day. Buy stock in economical packs.
+2. Optionally install ONE improvement for the whole three-day run.
+3. Two customer tickets queue at once. Choosing a ticket selects its dish.
+4. PREPARE consumes one abstract pantry unit; SERVE pays the ticket’s token price.
+5. Cooking, serving, cleaning, emergency restocking and discarding advance waiting
+   customers’ patience by one action. Reading, selecting and opening details do
+   not advance it. There is no timer, automatic countdown or required quick reflex.
+6. Wipe the station after two servings. Keep stock and cash in balance. Every
+   day can be closed early, so running out of stock never traps the player.
+7. Each day closes with an itemised receipt. Confirm to advance to the next day.
+8. After day three, see totals, replay a fresh run or find the real café.
+
+Visible rules and values — all invented for this game
+Start: 18 tokens, 2 panino kits, 2 coffee portions.
+Day one: 4 guests; day two: 5; day three: 6. Total: 15.
+Target: serve at least 11 / 15 guests and finish with at least 35 tokens.
+Panino kit: one abstract unit covers bread and featured fillings for any of the
+three game panini. This is not an ingredient, allergen or nutritional disclosure.
+Prep stock: 3 panino kits for 6 tokens; 4 coffee portions for 4 tokens.
+Emergency stock while trading: 1 panino kit for 3; 1 coffee portion for 2; each
+uses one action. Stock of each type is capped at 12.
+Each espresso pays 3 tokens; each panino pays 6. Serving with at least 4 patience
+remaining gives 1 tip token. Prices are game tokens, not pounds or real prices.
+Closing cost: 2 tokens daily, announced before opening and reserved by purchase
+checks. It is charged once on closing, explicitly listed in the receipt.
+Initial patience: 10 on day one, 8 on day two, 7 on day three.
+One 10-token upgrade, optional and permanent within the practice run:
+- Prep counter: panino preparation costs no patience; serving still costs one.
+- Grinder: each served espresso pays one extra token.
+- Waiting corner: each new guest arrives with three more patience.
+Stock, till and improvement carry between days; a reset clears the entire run.
+Neither absence, poverty, wages nor the original game’s flower mechanics apply.
+
+Original implementation and reuse boundary
+lib/service-state.mjs is an immutable deterministic reducer with guarded phase
+transitions, unique finite customer IDs and explicit action costs. It has no
+backend, third-party agent, API call, randomness or fabricated reviews.
+app/service-shift.tsx is bilingual English / Chinese. Customer figures, food,
+espresso machine, counter, upgrades and shopfront are small original CSS pixel
+sprites. No external game code, sprite, sound or photo was copied for this
+mini-game. All interactions are keyboard buttons; explanation panels are ordinary
+text; confirmation prompts trap focus and restore it on closing. Visual feedback
+lists cash and stock before/after. Patience is numeric as well as a visible bar.
+
+Primary open-source references consulted
+A. MiniBistro — MajestyHenius / Shanghai Qi Zhi Institute
+Repository / README: https://github.com/MajestyHenius/MiniBistro
+Licence: https://github.com/MajestyHenius/MiniBistro/blob/main/LICENSE.md
+Licence checked: MIT, copyright (c) 2025 Shanghai Qi Zhi Institute. Its README
+separately identifies included art as CC BY 4.0 and demo premium art as licensed;
+none of those assets or code was used. High-level ideas consulted: a preparation
+phase before the doors open, customer order / wait / leave states, daily income
+reports and a review-and-adapt loop. Our service model is deterministic and
+turn-based, rather than its generative-agent / Unity architecture. No LLM API
+or personal backstories from the repository are imported.
+
+B. OpenRCT2 — OpenRCT2 contributors
+Repository / README: https://github.com/OpenRCT2/OpenRCT2
+Licence: https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt
+Licence checked: GNU GPL version 3 or later. High-level ideas consulted: bounded
+scenarios with explicit objectives, balancing spending with guest satisfaction,
+and visible management feedback. No OpenRCT2 source, data, interface, fonts,
+original RollerCoaster Tycoon assets or music are included. We do not claim any
+relationship with the project. This is a design reference, not a software
+component of Italia Uno.
+
+These references support interaction patterns only. They are not research about
+Italia Uno, restaurant economics, real customer patience or real earnings.
+
+Validation
+Command: node tests/service.test.mjs
+55 meaningful state assertions pass, covering opening/stock/upgrade costs,
+immutability, stock capacity, reserved closing costs, preparation, wrong-dish and
+out-of-stock feedback, emergency restocking, cleaning, repeated-action guards,
+finite queue loss, early closing, one-time settlement, day transitions, all three
+upgrade effects, full three-day success, finished-state guards and reset.
+Reachable demonstration strategy: buy only the stock needed before opening,
+serve the oldest ticket and wipe after two servings. It serves all 15 guests and
+finishes with 73 tokens without an upgrade. Poor stocking or wasted service
+actions can still lose guests. No real-time timer is used.
+TSX transpilation check: TypeScript transpileModule, React JSX, ES2022 — passed.
+Full browser integration and build are performed in the parent project workflow.
+
+Integration
+import ServiceShift from './service-shift';
+Render <ServiceShift lang={lang} onExit={closePanel} onSound={soundEffect} /> in a
+wide, scrollable panel. onSound receives select, serve, error or win. Appending
+docs/service-css.txt to app/globals.css styles the mini-game. All selectors use
+shift-* to avoid altering the root café scene, menu or exploration UI.
+Mounting a new instance starts a fresh practice run; reopening does not overwrite
+or reset the exploration visit stamps / private notebook.

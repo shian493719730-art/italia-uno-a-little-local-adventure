@@ -1,0 +1,21 @@
+{
+  "based_on_site_version": 18,
+  "based_on_site_source": "4a8a3314b9a8c3b2d8ee30f7043b99b8b7ce5904",
+  "standalone_wrapper": "React + Vite static build",
+  "clean_install": "npm ci (passed)",
+  "build": "npm run build (passed)",
+  "tests": "npm test: 7/7 test files passed",
+  "browser": {
+    "origin": "local production preview over HTTP",
+    "entry_opens_original_interior": true,
+    "menu_item_count": 65,
+    "sample_order": "1 Italia, virtual \u00a34.50",
+    "done_opens_meal_page": true,
+    "meal_gate_initially_disabled": true,
+    "logo_loaded": true,
+    "local_brush_font_loaded": true,
+    "desktop_width": 1440,
+    "document_width": 1440
+  },
+  "no_account_api_database_required": true
+}
